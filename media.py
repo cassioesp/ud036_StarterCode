@@ -19,10 +19,3 @@ class Movie(Video):
     def __init__(self, title, year, duration, poster_image_url, trailer_youtube_url, storyline):
         Video.__init__(self, title, year, duration, poster_image_url, trailer_youtube_url)
         self.storyline = storyline
-
-
-class TVShow(Video):
-    def __init__(self, title, year, duration, poster_image_url, trailer_youtube_url, season, number_of_episodes):
-        Video.__init__(self, title, year, duration, poster_image_url, trailer_youtube_url)
-        self.season = season
-        self.number_of_episodes = number_of_episodes

@@ -15,8 +15,7 @@ main_page_head = '''
     <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap-theme.min.css">
     <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
     <script src="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
-    <style type="text/css" media="screen">
-    </style>
+    <style type="text/css" media="screen"></style>
     <link href="css/styles.css" rel="stylesheet">
     <script type="text/javascript" charset="utf-8">
         // Pause the video when the modal is closed
@@ -72,7 +71,7 @@ main_page_content = '''
       <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
           <div class="navbar-header">
-            <a class="navbar-brand" href="#">My Favorite Videos Database</a>
+            <a class="navbar-brand" href="#">My Favorite Movies Database</a>
           </div>
         </div>
       </div>
@@ -80,7 +79,7 @@ main_page_content = '''
     
     <h1><b>Favorite Movies</b></h1>
     <div class="container">
-      '{movie_tiles}'
+      {movie_tiles}
     </div>
   </body>
 </html>
@@ -95,7 +94,8 @@ movie_tile_content = '''
 </div>
 '''
 
-def open_movies_page(movies, tv_shows):
+
+def open_movies_page(movies):
     # Create or overwrite the output file
     output_file = open('fresh_tomatoes.html', 'w')
 
@@ -134,4 +134,3 @@ def create_movie_tiles_content(movies):
             trailer_youtube_id=trailer_youtube_id
         )
     return content
-
