@@ -5,10 +5,7 @@ import media
 fight_club = media.Movie("Fight Club",
                          "1999",
                          "139 min",
-                         "https://images-na.ssl-images-amazon.com/images/M/MV5"
-                         "BMzFjMWNhYzQtYTIxNC00ZWQ1LThiOTItNWQyZmMxNDYyMjA5XkE"
-                         "yXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UX182_CR0,0,182,268_AL"
-                         "_.jpg",
+                         "https://images-na.ssl-images-amazon.com/images/M/MV5BMzFjMWNhYzQtYTIxNC00ZWQ1LThiOTItNWQyZmMxNDYyMjA5XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UX182_CR0,0,182,268_AL_.jpg",  # NOQA
                          "https://www.youtube.com/watch?v=SUXWAEX2jlg",
                          "An insomniac office worker, looking for a way to cha"
                          "nge his life, crosses paths with a devil-may-care so"
@@ -18,9 +15,7 @@ fight_club = media.Movie("Fight Club",
 django_unchained = media.Movie("Django Unchained",
                                "1996",
                                "165 min",
-                               "https://images-na.ssl-images-amazon.com/images"
-                               "/M/MV5BMjIyNTQ5NjQ1OV5BMl5BanBnXkFtZTcwODg1MDU"
-                               "4OA@@._V1_UX182_CR0,0,182,268_AL_.jpg",
+                               "https://images-na.ssl-images-amazon.com/images/M/MV5BMjIyNTQ5NjQ1OV5BMl5BanBnXkFtZTcwODg1MDU4OA@@._V1_UX182_CR0,0,182,268_AL_.jpg",  # NOQA
                                "https://www.youtube.com/watch?v=eUdM9vrCbow",
                                "With the help of a German bounty hunter, a fre"
                                "ed slave sets out to rescue his wife from a br"
@@ -29,10 +24,7 @@ django_unchained = media.Movie("Django Unchained",
 the_shining = media.Movie("The Shining",
                           "1980",
                           "146 min",
-                          "https://images-na.ssl-images-amazon.com/images/M/MV"
-                          "5BZWFlYmY2MGEtZjVkYS00YzU4LTg0YjQtYzY1ZGE3NTA5NGQx"
-                          "XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UX182_CR0,0,182,26"
-                          "8_AL_.jpg",
+                          "https://images-na.ssl-images-amazon.com/images/M/MV5BZWFlYmY2MGEtZjVkYS00YzU4LTg0YjQtYzY1ZGE3NTA5NGQxXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UX182_CR0,0,182,268_AL_.jpg",  # NOQA
                           "https://www.youtube.com/watch?v=S014oGZiSdI",
                           "A family heads to an isolated hotel for the winter "
                           "where an evil spiritual presence influences the fat"
@@ -42,10 +34,7 @@ the_shining = media.Movie("The Shining",
 reservoir_dogs = media.Movie("Reservoir Dogs",
                              "1992",
                              "159 min",
-                             "https://images-na.ssl-images-amazon.com/images/M"
-                             "/MV5BZmExNmEwYWItYmQzOS00YjA5LTk2MjktZjEyZDE1Y2Q"
-                             "xNjA1XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UX182_CR0,"
-                             "0,182,268_AL_.jpg",
+                             "https://images-na.ssl-images-amazon.com/images/M/MV5BZmExNmEwYWItYmQzOS00YjA5LTk2MjktZjEyZDE1Y2QxNjA1XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UX182_CR0,0,182,268_AL_.jpg",  # NOQA
                              "https://www.youtube.com/watch?v=vayksn4Y93A",
                              "After a simple jewelry heist goes terribly wrong"
                              ", the surviving criminals begin to suspect that "
@@ -54,10 +43,7 @@ reservoir_dogs = media.Movie("Reservoir Dogs",
 trainspotting = media.Movie("Trainspotting",
                             "1997",
                             "94 min",
-                            "https://images-na.ssl-images-amazon.com/images/M"
-                            "/MV5BMzA5Zjc3ZTMtMmU5YS00YTMwLWI4MWUtYTU0YTVmNjVm"
-                            "ODZhXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX182_CR0,0,"
-                            "182,268_AL_.jpg",
+                            "https://images-na.ssl-images-amazon.com/images/M/MV5BMzA5Zjc3ZTMtMmU5YS00YTMwLWI4MWUtYTU0YTVmNjVmODZhXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX182_CR0,0,182,268_AL_.jpg",  # NOQA
                             "https://www.youtube.com/watch?v=JuneXaJIAmo",
                             "Renton, deeply immersed in the Edinburgh drug sc"
                             "ene, tries to clean up and get out, despite the "
@@ -66,9 +52,7 @@ trainspotting = media.Movie("Trainspotting",
 into_the_wild = media.Movie("Into the Wild",
                             "2007",
                             "148 min",
-                            "https://images-na.ssl-images-amazon.com/images/M"
-                            "/MV5BMTAwNDEyODU1MjheQTJeQWpwZ15BbWU2MDc3NDQwNw@@"
-                            "._V1_UX182_CR0,0,182,268_AL_.jpg",
+                            "https://images-na.ssl-images-amazon.com/images/M/MV5BMTAwNDEyODU1MjheQTJeQWpwZ15BbWU2MDc3NDQwNw@@._V1_UX182_CR0,0,182,268_AL_.jpg",  # NOQA
                             "https://www.youtube.com/watch?v=lwtZgBFKlzs",
                             "After graduating from Emory University, top stud"
                             "ent and athlete Christopher McCandless abandons h"
