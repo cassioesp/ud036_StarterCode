@@ -96,6 +96,7 @@ movie_tile_content = '''
 
 
 def open_movies_page(movies):
+    '''This function open a webbrowser to show the content.'''
     # Create or overwrite the output file
     output_file = open('fresh_tomatoes.html', 'w')
 
@@ -113,6 +114,8 @@ def open_movies_page(movies):
 
 
 def create_movie_tiles_content(movies):
+    '''Iterates over a list of movies and append the
+    tile for the movie with its content.'''
     # The HTML content for this section of the page
     content = ''
     for movie in movies:
